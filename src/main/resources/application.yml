@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: jpaBbs
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    database: postgresql
+    open-in-view: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  datasource:
+    username: admin
+    password: 12qwas!@34
+    url: jdbc:postgresql://127.0.0.1:5432/test
+server:
+  port: 9090
+
